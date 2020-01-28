@@ -1,6 +1,6 @@
 # OpenSea Whitelabel Marketplace
 
-Embed a fully functional OpenSea marketplace on your own website in 3 quick steps! [Example marketplace](https://)
+Embed a fully functional OpenSea marketplace on your own website in 3 quick steps! [Example marketplace](https://opensea-whitelabel.herokuapp.com/)
 
 # Setup
 
