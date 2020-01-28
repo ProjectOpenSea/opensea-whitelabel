@@ -1408,6 +1408,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/iframe-resizer@3.5.8":
+  version "3.5.8"
+  resolved "https://registry.yarnpkg.com/@types/iframe-resizer/-/iframe-resizer-3.5.8.tgz#d141f3cbebca951788e3b9a7654d46317bb9345b"
+  integrity sha512-gkdjvjShS1aKe3giEwOlKGJzUixA5kqMlFRT4zwjC+K+BZWiwGq5/HMSDFu2oeTBJlKP0iWABabssSYjc9PVuQ==
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -5040,6 +5045,11 @@ iferr@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
   integrity sha1-xg7taebY/bazEEofy8ocGS3FtQE=
+
+iframe-resizer@4.2.9:
+  version "4.2.9"
+  resolved "https://registry.yarnpkg.com/iframe-resizer/-/iframe-resizer-4.2.9.tgz#52673d9ff7fbb79b65e00591491e76025fae1a9a"
+  integrity sha512-ka8udWq66WzyRFu6sNs+lfz+KRH9f1u5bpORcpW5eQr60HBtopSJSgci4V8VF64GyxRiEQ/KCteOpABKwC1/fw==
 
 ignore-walk@^3.0.1:
   version "3.0.3"

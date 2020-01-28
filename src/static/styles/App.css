@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 1em;
+  pointer-events: none;
+}
+
+.App-header {
+  height: 10vh;
+  padding: 0 5vmax;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-main {
+  min-height: 100vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.App-footer {
+  min-height: 10vh;
+  background-color: #6229ca;
+  text-align: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-hero {
+  width: 100vw;
+  height: 30vmin;
+  min-height: 150px;
+  background-color: #1e7157;
+  position: relative;
+
+  font-weight: 700;
+  font-family: 'Titillium Web', 'Roboto', 'Avenir', 'Helvetica Neue', sans-serif;
+  color: white;
+  text-shadow: 2px 2px #000;
+  font-size: 4rem;
+  line-height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-hero * {
+  position: relative;
+  margin: 0;
+}
+
+.App-hero small {
+  color: #bbb;
+  line-height: 3rem;
+  font-size: 1.3rem;
+  text-shadow: none;
+}
+
+.App-hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media(max-width: 600px) {
+  .App-hero {
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+  }
+  .App-hero small {
+    font-size: 1rem;
+  }
+}
