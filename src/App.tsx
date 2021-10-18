@@ -29,9 +29,9 @@ class App extends React.Component {
                     className='h-100'
                     title='Embedded OpenSea Marketplace'
                     src={embeddedUrl}
-                    width='1000%'
-                    height='1050%'
-                    frameBorder='0'
+                    width='500%'
+                    height='500%'
+                    frameBorder='100'
                     allowFullScreen
                 ></iframe>
             </>
