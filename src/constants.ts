@@ -1,9 +1,9 @@
-export const ASSET_URL =
-  "https://opensea.io/assets/0x1301566b3cb584e550a02d09562041ddc4989b91/28";
+export const ASSET_URL = "https://opensea.io/assets/0x730151b8286ca0508a19a9d5c47fe91fdd9a6737/0";
+  
 
 export enum EmbedTheme {
   Default = "true",
-  Simple = "simple",
+  Simple = "simple", // You can pick between simple, day, night, and more to come!
 }
 
 export const CHOSEN_THEME = EmbedTheme.Default;

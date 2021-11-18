@@ -6,9 +6,37 @@ import footer from './static/images/footer.png';
 import { iframeResizer } from 'iframe-resizer'
 import './static/styles/App.css';
 
+
+import WalletConnectClient from "@walletconnect/client";  // burtrico added
+
+const client = await WalletConnectClient.init({
+  relayProvider: "wss://relay.walletconnect.com",
+  metadata: {
+    name: "Example Dapp",
+    description: "Example Dapp",
+    url: "#",
+    icons: ["https://walletconnect.com/walletconnect-logo.png"],
+  },
+});
+
+const session = await client.connect({
+  permissions: {
+    blockchain: {
+      chains: ["eip155:1"],
+    },
+    jsonrpc: {
+      methods: ["eth_sendTransaction", "personal_sign", "eth_signTypedData"],
+    },
+  },
+});
+
+
+
 const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`
 
 class App extends React.Component {
+
+
 
   componentDidMount() {
     iframeResizer({ log: false }, '#opensea-iframe')
