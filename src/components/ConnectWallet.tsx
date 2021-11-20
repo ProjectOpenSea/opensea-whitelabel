@@ -21,7 +21,7 @@ import { convertAmountToRawNumber, convertStringToHex } from "../helpers/bignumb
 import { IAssetData } from "../helpers/types";
 import Banner from "./Banner";
 import AccountAssets from "./AccountAssets";
-import { eip712 } from "../helpers/eip712.ts";
+import { eip712 } from "../helpers/eip712";
 
 
 
