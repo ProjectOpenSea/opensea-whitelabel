@@ -1,6 +1,6 @@
 import React from 'react';
 import { ASSET_URL, CHOSEN_THEME } from './constants'
-import logo from './static/images/logo.png';
+import logo from './static/images/optisea-logo.png';
 import './static/styles/App.css';
 import footer from './static/images/footer.png';
 import { iframeResizer } from 'iframe-resizer'
@@ -27,7 +27,7 @@ class App extends React.Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            
+            OptiSea
           </p>
           <i className="material-icons right">menu</i>
         </header>
