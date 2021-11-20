@@ -1,11 +1,13 @@
-# OpenSea Whitelabel Marketplace
+# OptiSea Marketplace
+<!-- 
+Embed a fully functional OpenSea marketplace on your own website in 3 quick steps! [Example marketplace](https://opensea-whitelabel.herokuapp.com/) -->
 
-Embed a fully functional OpenSea marketplace on your own website in 3 quick steps! [Example marketplace](https://opensea-whitelabel.herokuapp.com/)
+<!-- <img src="https://github.com/ProjectOpenSea/opensea-whitelabel/blob/master/screenshot-desktop.png" width="600" />
+<img src="https://github.com/ProjectOpenSea/opensea-whitelabel/blob/master/screenshot-mobile.png" width="300" /> -->
 
-<img src="https://github.com/ProjectOpenSea/opensea-whitelabel/blob/master/screenshot-desktop.png" width="600" />
-<img src="https://github.com/ProjectOpenSea/opensea-whitelabel/blob/master/screenshot-mobile.png" width="300" />
+<img src="https://raw.githubusercontent.com/burtrico/optisea-white-label/working/optisea-desktop-screenshot.jpg" width="680" />
 
-# Setup
+<!-- # Setup
 
 ### Installation
 
@@ -67,4 +69,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React documentation](https://reactjs.org/). -->
