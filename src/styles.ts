@@ -1,4 +1,4 @@
-export const colors = {
+export const colors: any = {
   white: "255, 255, 255",
   black: "0, 0, 0",
   dark: "12, 12, 13",
@@ -90,13 +90,13 @@ export const globalStyle = `
   }
 
   body {
-    font-family: ${fonts.family.OpenSans};
+    font-family: ${ fonts.family.OpenSans };
     font-style: normal;
     font-stretch: normal;
-    font-weight: ${fonts.weight.normal};
-    font-size: ${fonts.size.medium};
-    background-color: rgb(${colors.white});
-    color: rgb(${colors.dark});
+    font-weight: ${ fonts.weight.normal };
+    font-size: ${ fonts.size.medium };
+    background-color: rgb(${ colors.white });
+    color: rgb(${ colors.dark });
     overflow-y:auto;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -131,22 +131,22 @@ export const globalStyle = `
   }
 
   h1 {
-    font-size: ${fonts.size.h1}
+    font-size: ${ fonts.size.h1 }
   }
   h2 {
-    font-size: ${fonts.size.h2}
+    font-size: ${ fonts.size.h2 }
   }
   h3 {
-    font-size: ${fonts.size.h3}
+    font-size: ${ fonts.size.h3 }
   }
   h4 {
-    font-size: ${fonts.size.h4}
+    font-size: ${ fonts.size.h4 }
   }
   h5 {
-    font-size: ${fonts.size.h5}
+    font-size: ${ fonts.size.h5 }
   }
   h6 {
-    font-size: ${fonts.size.h6}
+    font-size: ${ fonts.size.h6 }
   }
 
   a {

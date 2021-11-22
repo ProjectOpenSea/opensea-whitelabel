@@ -6,17 +6,9 @@ import footer from './static/images/footer.png';
 import { iframeResizer } from 'iframe-resizer'
 import './static/styles/App.css';
 
-import ConnectWallet from './components/ConnectWallet';
-
-
-
-const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`
+const embeddedUrl = `${ ASSET_URL }?embed=${ CHOSEN_THEME }`
 
 class App extends React.Component {
-
-
-
-
   componentDidMount() {
     iframeResizer({ log: false }, '#opensea-iframe')
   }
@@ -43,7 +35,7 @@ class App extends React.Component {
         </main>
         <footer className="App-footer">
           {/* Placeholder image for footer */}
-          <img style={{width: '100%'}} src={footer} className="footer" alt="footer" />
+          <img style={{ width: '100%' }} src={footer} className="footer" alt="footer" />
         </footer>
       </div>
     );
