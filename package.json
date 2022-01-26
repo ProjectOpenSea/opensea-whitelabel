@@ -15,7 +15,7 @@
     "iframe-resizer": "4.2.9",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
+    "react-scripts": "5.0.0",
     "typescript": "~3.7.2"
   },
   "scripts": {
