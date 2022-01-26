@@ -8,6 +8,11 @@ Embed a fully functional OpenSea marketplace on your own website in 3 quick step
 # Setup
 
 ### Installation
+Using curl, or wget, download the installation script. In the URL below make sure you replace v0.35.0 with the latest version of nvm.
+
+curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+
+Run nvm install 14 
 
 Run `yarn` to install dependencies.
 
